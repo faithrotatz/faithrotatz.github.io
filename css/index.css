@@ -128,7 +128,7 @@ img{transition:all .6s ease;}
 /* 响应式 */
 .tishi-two{display:none}
 @media(max-width:900px){
-
+#services{display:none;}
 .nav-top{
 display:none;
 }
