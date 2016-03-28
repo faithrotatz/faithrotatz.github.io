@@ -125,3 +125,18 @@ img{transition:all .6s ease;}
 .img{background-image:url(../images/daxue.jpg);
      background-size:cover}
 #portfolio h3,.ser-head h3{font-family:"微软雅黑"}
+/* 响应式 */
+.tishi-two{display:none}
+@media(max-width:900px){
+
+.nav-top{
+display:none;
+}
+.biaozhi{display:none}
+.tishi-two{display:block;
+      text-align:center;
+       line-height:500px;}
+.tishi-two h1{line-height:500px}
+.img{display:none}
+#zuopin-list{display:none;}
+}
