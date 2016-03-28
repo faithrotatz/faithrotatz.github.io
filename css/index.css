@@ -1,0 +1,127 @@
+#home{background-image:url(../images/bg.jpg);
+      background-size:cover;
+      background-position:center center;
+      background-repeat:no-repeate;
+      background-attachment:fixed;
+    
+      position:relative;}
+.mengban{width:100%;height:100%;background:rgba(0,0,0,0.5); }
+*{box-sizing:border-box;}
+
+a{color:white;}
+a:hover{text-decoration:none}
+ul,li{list-style:none;text-align:center}
+.nav-top{height:50px;line-height:50px;}
+.container-fluid{background:rgba(0,0,0,0.8);}
+#topnav{position:fixed;width:100%;z-index:100;}
+.biaozhi{
+width:200px;height:200px;position:absolute;
+         left:0;right:0;
+         top:0;
+         bottom:0;
+         margin:auto;color:white;}
+.biaozhi svg{width:135px;height:135px;text-align:center;fill:white;}
+.about-info h3{font-family:'微软雅黑'}
+.about-info h4{font-style:normal;}
+.about-info p{font-size:16px;}
+#about{background-image:url(../images/about.jpg);
+background-position:center center;
+background-size:cover;
+background-repeat:no-repeat;}
+.img{width:440px;height:300px;}
+#skill a{display:block;
+ width:200px;height:200px;
+ 
+ border-radius:50%;
+ margin:0 auto;
+ text-align:center;
+ color:black;
+ line-height:200px;
+ font-size:30px;
+ bo rder:1px solid #3399CC;
+ position:relative;
+ transition:all 1s ease;
+ } 
+ #skill li{text-align:center;position:relative;}
+ .our-skills h2{color:white;text-align:center;margin-bottom:30px;}
+/* #skill .aa .smallbtn{display:block;
+         width:10px;
+         height:10px;
+         border-radius:50%;
+         background:#3399CC;position:absolute;
+           left:50%;
+           margin-left:-2.5px;
+           top:-5px;
+           } */
+.fenshu,.text{color:white;font-size:30px;
+margin-bottom:20px;display:block;
+}
+
+.fenshu{position:absolute;
+         left:50%;
+         top:50%;  
+         display:block;
+         color:black;
+         z-index:10;
+         margin-left:-20px;
+         font-size:30px;
+         }
+img{transition:all .6s ease;}
+.before :hover img{
+	-webkit-transform:scale(1.2,1.2);
+	
+} 
+.zuopin:hover .before{opacity:1;z-index:10;} 
+.zuopin{position:relative;}
+.before span{display:block;width:100px;
+             height:30px;
+             border:1px solid white;
+             margin:0 auto;}
+.before{
+                 display:block;
+                 position:absolute;
+                 z-index:0;
+                 left:0;top:0;
+                 width:100%;
+                 height:100%;
+                 text-align:center;
+                   padding-top:40%;
+                 overflow:hidden;
+                 color:white;
+                  line-height:100%;
+                 font-size:20px;
+                 opacity:0;
+                 transition:all .6s ease;
+                 background:rgba(0,0,0,0.3);}
+/* 2层skill */
+
+.canvas{border-radius:50%}
+#zuopin-list{
+  width:700px;
+  height:50px;
+
+  margin:0 auto;
+  text-align:justify;
+  padding-top:10px;
+  margin-top:20px;
+}
+#zuopin-list li{
+ width:100px;
+ height:30px;
+  display:inline-block;
+  border-top:1px solid black;
+  padding:2px;
+  transition:all .6s ease;
+}
+#zuopin-list:after{content:"";
+                   display:inline-block;
+                   width:100%;
+                   height:0;
+                   font-size:0}
+.active{
+  transform:scale(1.2);
+  border-top:3px solid #d22222;
+}
+.img{background-image:url(../images/daxue.jpg);
+     background-size:cover}
+#portfolio h3,.ser-head h3{font-family:"微软雅黑"}
